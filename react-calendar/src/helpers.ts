@@ -181,4 +181,4 @@ export const hatchArray: HatchType[] = [
   }
 ];
 
-export const createCalendar = () => shuffle(hatchArray);
+export const createCalendar = (): HatchType[] => shuffle(hatchArray);
